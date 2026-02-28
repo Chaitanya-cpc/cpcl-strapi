@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "analytical_ratios",
+  "info": {
+    "singularName": "analytical-ratio",
+    "pluralName": "analytical-ratios",
+    "displayName": "Analytical Ratio",
+    "description": "Year-on-year analytical ratios for IR page"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "fy25": {
+      "type": "string"
+    },
+    "fy24": {
+      "type": "string"
+    },
+    "note": {
+      "type": "string"
+    }
+  }
+}

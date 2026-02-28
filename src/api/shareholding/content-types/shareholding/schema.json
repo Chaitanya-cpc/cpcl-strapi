@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "shareholdings",
+  "info": {
+    "singularName": "shareholding",
+    "pluralName": "shareholdings",
+    "displayName": "Shareholding",
+    "description": "Shareholding pattern for pie chart on IR page"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "value": {
+      "type": "decimal",
+      "required": true
+    },
+    "color": {
+      "type": "string"
+    }
+  }
+}

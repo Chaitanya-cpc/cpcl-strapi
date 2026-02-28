@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "financial_metrics",
+  "info": {
+    "singularName": "financial-metric",
+    "pluralName": "financial-metrics",
+    "displayName": "Financial Metric",
+    "description": "Key financial metrics for the IR dashboard"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "value": {
+      "type": "string",
+      "required": true
+    },
+    "change": {
+      "type": "string"
+    },
+    "positive": {
+      "type": "boolean",
+      "default": true
+    },
+    "year": {
+      "type": "string"
+    },
+    "is_highlighted": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

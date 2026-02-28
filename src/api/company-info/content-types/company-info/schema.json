@@ -1,0 +1,99 @@
+{
+  "kind": "singleType",
+  "collectionName": "company_infos",
+  "info": {
+    "singularName": "company-info",
+    "pluralName": "company-infos",
+    "displayName": "Company Info",
+    "description": "Global company information (singleton)"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "short_name": {
+      "type": "string"
+    },
+    "tagline": {
+      "type": "string"
+    },
+    "founded_year": {
+      "type": "integer"
+    },
+    "cin": {
+      "type": "string"
+    },
+    "registered_address": {
+      "type": "text"
+    },
+    "corporate_office": {
+      "type": "text"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "tollfree": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "contact_email": {
+      "type": "email"
+    },
+    "hr_email": {
+      "type": "email"
+    },
+    "investor_email": {
+      "type": "email"
+    },
+    "website": {
+      "type": "string"
+    },
+    "linkedin": {
+      "type": "string"
+    },
+    "credit_rating_long_term": {
+      "type": "string"
+    },
+    "credit_rating_short_term": {
+      "type": "string"
+    },
+    "clients": {
+      "type": "json"
+    },
+    "market_cap": {
+      "type": "string"
+    },
+    "stock_code": {
+      "type": "string"
+    },
+    "listing": {
+      "type": "string"
+    },
+    "dividend_yield": {
+      "type": "string"
+    },
+    "book_value": {
+      "type": "string"
+    },
+    "eps": {
+      "type": "string"
+    },
+    "accounts_email": {
+      "type": "email"
+    },
+    "facebook": {
+      "type": "string"
+    },
+    "advantages": {
+      "type": "json"
+    },
+    "service_model_steps": {
+      "type": "json"
+    }
+  }
+}

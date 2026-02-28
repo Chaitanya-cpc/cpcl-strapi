@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "directors",
+  "info": {
+    "singularName": "director",
+    "pluralName": "directors",
+    "displayName": "Director",
+    "description": "Board members and leadership team"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "short_title": {
+      "type": "string"
+    },
+    "bio": {
+      "type": "richtext"
+    },
+    "education": {
+      "type": "json"
+    },
+    "expertise": {
+      "type": "json"
+    },
+    "experience": {
+      "type": "integer"
+    },
+    "photo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "display_order": {
+      "type": "integer",
+      "default": 0
+    },
+    "is_board_member": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

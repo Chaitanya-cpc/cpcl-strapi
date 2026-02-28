@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "income_statements",
+  "info": {
+    "singularName": "income-statement",
+    "pluralName": "income-statements",
+    "displayName": "Income Statement",
+    "description": "P&L line items for the IR financial table"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "particulars": {
+      "type": "string",
+      "required": true
+    },
+    "fy25": {
+      "type": "string"
+    },
+    "fy24": {
+      "type": "string"
+    }
+  }
+}

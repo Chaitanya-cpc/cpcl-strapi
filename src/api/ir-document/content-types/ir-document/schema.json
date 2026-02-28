@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ir_documents",
+  "info": {
+    "singularName": "ir-document",
+    "pluralName": "ir-documents",
+    "displayName": "IR Document",
+    "description": "Investor relations documents (annual reports, financials, governance)"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": ["Annual Report", "Quarterly", "Prospectus", "Governance"],
+      "required": true
+    },
+    "file": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["files"]
+    },
+    "publish_date": {
+      "type": "date"
+    },
+    "financial_year": {
+      "type": "string"
+    }
+  }
+}

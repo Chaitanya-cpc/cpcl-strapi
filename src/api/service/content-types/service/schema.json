@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "services",
+  "info": {
+    "singularName": "service",
+    "pluralName": "services",
+    "displayName": "Service",
+    "description": "CPCL service offerings"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "short_title": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "short_desc": {
+      "type": "text"
+    },
+    "full_desc": {
+      "type": "richtext"
+    },
+    "scope": {
+      "type": "json"
+    },
+    "methodology": {
+      "type": "json"
+    },
+    "projects_count": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}
